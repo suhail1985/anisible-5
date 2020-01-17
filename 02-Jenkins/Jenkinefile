@@ -1,7 +1,7 @@
 node {
     
     stage('Git CheckOut'){
-        git 'https://github.com/amitvashisttech/devops-acc-20200113.git'
+        git 'https://github.com/suhail1985/anisible-5.git'
     }
     
     def project_path = "02-Jenkins/atmosphere/spring-boot-samples/spring-boot-sample-atmosphere"
